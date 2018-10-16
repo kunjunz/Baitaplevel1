@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<stdlib.h>
+void main()
+{
+	float n, nguyen, du;
+	printf("nhap so thuc: ");
+	scanf("%f", &n);
+	printf("phan nguyen: %d\n", (int)n);
+	du = n - (int) n;
+	printf("phan tap phan: %f", du);
+	return 0;
+}
