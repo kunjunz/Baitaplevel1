@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<stdlib.h>
+void main()
+{
+    float S, a, b;
+    printf("Nhap a: ");
+    scanf("%f", &a); 
+    printf("\nNhap b: ");
+    scanf("%f", &b);
+    S = a + b;
+    printf("Tong la %f", S);
+}
