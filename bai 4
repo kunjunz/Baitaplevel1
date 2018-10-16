@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{
+    float a, b, S;
+    printf("Nhap a: ");
+    scanf("%f", &a);
+    printf("\nNhap b: ");
+    scanf("%f", &b);
+    S = a*a + b*b;
+    printf("Tong la: %f", S);
+    return 0;
+}
