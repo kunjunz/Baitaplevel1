@@ -4,6 +4,6 @@ void main()
 {
     int a;
     printf("Nhap ki tu: ");
-    scanf("%c", &a);
-    printf("ma ascii la: %d", a);
+    scanf("%c", &a); // nhap vao ki tu
+    printf("ma ascii la: %d", a); // chuong trinh se bien kieu char thanh kieu ascii
 }
