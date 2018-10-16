@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{
+    int a, b, S;
+    printf("Nhap a: ");
+    scanf("%d", &a);
+    printf("\nNhap b: ");
+    scanf("%d", &b);
+ 
+    printf("\nGia tri sau khi chuyen doi la :a= %d, b=%d ", b, a);
+    return 0;
+}
