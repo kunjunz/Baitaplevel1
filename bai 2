@@ -1,0 +1,9 @@
+#include<stdio.h>
+#include<stdlib.h>
+void main()
+{
+    int a;
+    printf("Nhap ki tu: ");
+    scanf("%c", &a);
+    printf("ma ascii la: %d", a);
+}
